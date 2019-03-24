@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: #282c34;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,36 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 5px;
+}
+
+.panel{
+
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+
+.left-panel {
+  background: #ffffff;
+  width : 50%;
+  height: 100%;
+  min-height: 100vh;
+
+}
+
+.right-panel {
+  background: #61dafb;
+  width : 50%;
+  min-height: 100vh;
+ 
+}
+
+.normalAnchorStyle {
+  color: #ffffff;
 }
 
 .App-link {
@@ -35,10 +65,11 @@
 
 .template{
 
-  background-color: #61dafb;
-  border-radius: 10px;
-  height: 250px;
-  width: 300px;
+  background-color: #b0bcf1;
+  border-radius: 5px;
+  height: 150px;
+  width: 200px;
   color:black;
   margin:10px;
+  border-left: 1px solid red;
 }

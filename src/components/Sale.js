@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
+import Menu from './Menu';
 
 class Sale extends Component {
   render() {
     return (
       <div>
-            <h1> Sale Items</h1>
-            
-            <div className="template"> loremipsum </div>
-            <div className="template"> loremipsum </div>
-            <div className="template"> loremipsum </div>
-
+        <header className="App-header">
+            <Menu />
+        </header>
+        <div className ="container" >
+              <h1> Sale Items</h1>
+              <div className="template"> loremipsum </div>
+              <div className="template"> loremipsum </div>
+              <div className="template"> loremipsum </div>
+          </div>
       </div>
     )
   }
