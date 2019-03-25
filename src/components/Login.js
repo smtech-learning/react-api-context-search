@@ -25,16 +25,16 @@ class Login extends Component {
       return (
         <div> 
               <div className="panel">
-                  <div className="left-panel"> 
-                    <img src={logo} className= "helper" width="460" height="345" />
-                  </div>
-                  
+                    <div className="left-panel"> 
+                      <img src={logo} className= "helper" width="460" height="345" />
+                    </div>
                   <div className="right-panel"> 
-                    <span className="input-group-btn">
-
-                    <button onClick={this.handleLogin}>Login</button>
-
-                    </span>
+                      <div className="container">
+                        <span className="input-group-btn">
+                            <button onClick={this.handleLogin}>Login</button>
+                        </span>
+                      </div>
+                                
                   </div>
               </div>
         </div>

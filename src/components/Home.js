@@ -4,7 +4,7 @@ import '../App.css';
 import Menu from './Menu';
 import Products from './Products';
 import Inventory from './Inventory';
-import Error from './Error';
+import Error1 from './Error1';
 import Sale from './Sale';
 
 class Home extends Component {
@@ -17,6 +17,7 @@ class Home extends Component {
         <header className="App-header">
             <Menu />
         </header>
+        <h1> TESTING</h1>
       </div>
     );
   }
